@@ -1,23 +1,23 @@
-# Proyecto Vehículo - EndTerm M05
+# 🚗 Proyecto Vehículo - EndTerm M05
 **Asignatura:** Entornos de Desarrollo  
 **Ciclo:** DAW  
 **Grupo:** EndTerm-M05-Grupo_02  
 
-## Descripción
+## 📌 Descripción
 Este proyecto forma parte del trabajo final de la asignatura **Entornos de Desarrollo**.
 
-## Equipo
+## 👥 Equipo
 - Pablo Nicolás García  
 - Pablo Nuñez Pastrana
 - Gabriel de Luque Ramis de Ayreflor
 
-## Objetivo de esta fase
+## 🎯 Objetivo de esta fase
 Definir el comportamiento esperado de la clase `Vehiculo` antes de su implementación.
 
-# Clase principal vehículo
+# 🧩 Clase principal vehículo
 
 
-## Requisitos funcionales
+## 📦 Requisitos funcionales
 
 ### Atributos
 
@@ -28,30 +28,30 @@ Definir el comportamiento esperado de la clase `Vehiculo` antes de su implementa
 
 ### Métodos
 
-#### acelerar(int incremento)
+#### 🚀 acelerar(int incremento)
 
 - aumenta la velocidad actual
 - no puede superar la velocidad máxima
 
-#### frenar(int decremento)
+#### 🛑 frenar(int decremento)
 
 - reduce la velocidad actual
 - no puede bajar de 0
 
-## Reglas de negocio
+## 📏 Reglas de negocio
 
 - velocidad inicial = 0
 - no puede ser negativa
 - no puede superar velocidad máxima
 
-## Casos de uso
+## 🧪 Casos de uso
 
 - acelerar desde 0 → aumenta correctamente
 - acelerar superando límite → se queda en máximo
 - frenar → reduce correctamente
 - frenar por debajo de 0 → se queda en 0
 
-## Tecnologías
+## 🛠️ Tecnologías
 
 - Java
 - Maven
