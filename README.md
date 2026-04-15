@@ -10,3 +10,18 @@ Este proyecto forma parte del trabajo final de la asignatura **Entornos de Desar
 - Pablo Nicolás García  
 - Pablo Nuñez Pastrana
 - Gabriel de Luque Ramis de Ayreflor
+- 
+## Objetivo de esta fase
+Definir el comportamiento esperado de la clase `Vehiculo` antes de su implementación.
+
+# Clase principal vehículo
+
+
+## Requisitos funcionales
+
+### Atributos
+
+- `marca` (String)
+- `modelo` (String)
+- `velocidadActual` (int)
+- `velocidadMaxima` (int)
