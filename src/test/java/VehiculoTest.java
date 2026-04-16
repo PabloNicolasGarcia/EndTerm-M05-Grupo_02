@@ -26,7 +26,7 @@ public class VehiculoTest {
     void frenarNoDebeDejarVelocidadNegativa() {
         Vehiculo vehiculo = new Vehiculo("Seat", "Ibiza", 180);
         vehiculo.acelerar(10);
-        vehiculo.frenarLimite(5);
+        vehiculo.frenarLimite(50);
         assertEquals(0, vehiculo.getVelocidadActual());
     }
 }
