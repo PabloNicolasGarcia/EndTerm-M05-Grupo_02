@@ -17,4 +17,10 @@ public class Vehiculo {
     public void frenar(int decremento) {
         velocidadActual -= decremento;
     }
+    public void frenarLimite(int decremento) {
+        velocidadActual -= decremento;
+        if (velocidadActual < 0) {
+            velocidadActual = 0;
+        }
+    }
 }
