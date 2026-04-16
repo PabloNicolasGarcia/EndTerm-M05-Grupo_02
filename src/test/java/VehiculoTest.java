@@ -19,7 +19,7 @@ public class VehiculoTest {
     void frenarReduceLaVelocidadActual() {
         Vehiculo vehiculo = new Vehiculo("Seat", "Ibiza", 180);
         vehiculo.acelerar(50);
-        vehiculo.frenar(30);
+        vehiculo.frenar(20);
         assertEquals(30, vehiculo.getVelocidadActual());
     }
 }
