@@ -22,4 +22,11 @@ public class VehiculoTest {
         vehiculo.frenar(20);
         assertEquals(30, vehiculo.getVelocidadActual());
     }
+    @Test
+    void frenarNoDebeDejarVelocidadNegativa() {
+        Vehiculo vehiculo = new Vehiculo("Seat", "Ibiza", 180);
+        vehiculo.acelerar(10);
+        vehiculo.frenarLimite(50);
+        assertEquals(0, vehiculo.getVelocidadActual());
+    }
 }
