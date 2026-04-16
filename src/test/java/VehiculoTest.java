@@ -12,7 +12,7 @@ public class VehiculoTest {
     @Test
     void acelerarAumentaLaVelocidadActual() {
         Vehiculo vehiculo = new Vehiculo("Seat", "Ibiza", 180);
-        vehiculo.acelerar(20);
+        vehiculo.acelerar(200);
         assertEquals(20, vehiculo.getVelocidadActual());
     }
 }
