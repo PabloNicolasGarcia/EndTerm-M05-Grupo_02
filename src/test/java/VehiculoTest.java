@@ -15,4 +15,11 @@ public class VehiculoTest {
         vehiculo.acelerar(20);
         assertEquals(20, vehiculo.getVelocidadActual());
     }
+    @Test
+    void frenarReduceLaVelocidadActual() {
+        Vehiculo vehiculo = new Vehiculo("Seat", "Ibiza", 180);
+        vehiculo.acelerar(50);
+        vehiculo.frenar(30);
+        assertEquals(30, vehiculo.getVelocidadActual());
+    }
 }

@@ -14,4 +14,7 @@ public class Vehiculo {
             this.velocidadActual = this.velocidadMaxima;
         }
 }
+    public void frenar(int decremento) {
+        velocidadActual -= decremento;
+    }
 }
